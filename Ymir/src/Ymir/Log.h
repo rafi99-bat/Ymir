@@ -7,7 +7,7 @@
 
 namespace Ymir {
 
-	class HAZEL_API Log
+	class YMIR_API Log
 	{
 	public:
 		static void Init();

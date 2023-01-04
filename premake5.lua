@@ -44,7 +44,7 @@ project "Ymir"
 
 		postbuildcommands
 		{
-			("{COPY} %{cfg.buildtarget.relpath} ../bin/" .. outputdir .. "/Sandbox")
+			"copy /B /Y ..\\bin\\" .. outputdir .. "\\Ymir\\Ymir.dll ..\\bin\\" .. outputdir .. "\\Sandbox\\ > nul"
 		}
 
 	filter "configurations:Debug"
