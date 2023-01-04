@@ -1,0 +1,3 @@
+[submodule "Ymir/vendor/spdlog"]
+	path = Ymir/vendor/spdlog
+	url = https://github.com/gabime/spdlog.git
